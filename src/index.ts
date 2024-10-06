@@ -1,5 +1,5 @@
-
-import {Imovel} from "./classe/imovel";
+import 'module-alias/register';
+import {Imovel} from "@/classe/imovel";
 
 function main(){
     const imovel = new Imovel ("Casa", "Cavalcante ", 2, 2 )
